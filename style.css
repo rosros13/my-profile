@@ -1,0 +1,95 @@
+/* Colors and fonts */
+body {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Elegant font */
+}
+
+h1, h2, p {
+    font-family: 'Georgia', serif; /* Serif font for headings and paragraphs */
+}
+
+h1 {
+    color: #f8c291; /* Light orange text color for h1 */
+    font-size: 36px;
+}
+
+h2 {
+    color: #f5a623; /* Yellow text color for h2 */
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    font-family: 'Times New Roman', serif;
+    text-decoration: none;
+    color: #66b3ff; /* Light blue link color */
+}
+
+a:hover {
+    color: #3385ff; /* Darker blue on hover */
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    background-color: #444; /* Dark container background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Subtle box shadow */
+}
+
+.card-white {
+    background-color: #222; /* Dark gray background for cards */
+    border: 1px solid #333; /* Slight border */
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.btn-blue {
+    font-weight: bold;
+    background-color: #66b3ff; /* Light blue button background */
+    color: #fff; /* White button text color */
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+.btn-blue:hover {
+    background-color: #3385ff; /* Darker blue on hover */
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.list-inline i {
+    font-size: 40px;
+    color: #999; /* Light gray icons */
+}
+
+.list-inline i:hover {
+    color: #66b3ff; /* Light blue on hover */
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.insta i:hover {
+    color: #ff6b6b; /* Red on hover for .insta icons */
+}
